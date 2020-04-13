@@ -75,4 +75,4 @@ Then whenever one wants to run this code, first, should ensure that he puts/plac
  then run the python script successfully, either on the terminal as elaborated above while running it on terminal...
 After that, one should wait depending on your PC's processor speed, then later the output image will be shown under the output_images folder.
    
-This script takes a lot of time when running multiple images say, 10 images or more. It will also depend on the image quality.s
+This script takes a lot of time when running multiple images say, 10 images or more. It will also depend on the image quality.
