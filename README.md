@@ -1,6 +1,10 @@
 # Sky-Ground_Horizon_Detector
 A Python implementation of Sky Region Detection in multiple images, using an application of a computer vision-based horizon detector(OpenCV).
 
+This script takes in an input image and returns a resized output image which separates the exclusively sky part from the rest or ground region.
+
+#    Explanation;
+    
  Horizon detection or sky segmentation involves the approach of finding a boundary between sky and non sky regions, particularly the ground region in a given image.
  This can have many applications especially in navigation of UAV. 
  
@@ -15,4 +19,5 @@ A Python implementation of Sky Region Detection in multiple images, using an app
  Intuitively, given the pixel groupings, we need to quantify the assumption that a sky pixel will look similar to other sky pixels and
    likewise for the ground ones. Thus we are definitely looking for a degree of variance in each distribution. 
  
+# Links to further notes:
    
