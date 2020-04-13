@@ -85,13 +85,7 @@ Some of the required output images:
 
 
 
-
-
-
-
-
-
-This image clearly separates the sky from the ground as required.
+       This image clearly separates the sky from the ground as required.
 
 
 
