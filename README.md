@@ -1,4 +1,4 @@
-# Sky-Ground_Horizon_Detector
+﻿# Sky-Ground_Horizon_Detector
 A Python implementation of Sky Region Detection in multiple images, using an application of a computer vision-based horizon detector(OpenCV).
 
 This script takes in an input image and returns a resized output image which separates the exclusively sky part from the rest or ground region.
@@ -76,3 +76,34 @@ Then whenever one wants to run this code, first, should ensure that he puts/plac
 After that, one should wait depending on your PC's processor speed, then later the output image will be shown under the output_images folder.
    
 This script takes a lot of time when running multiple images say, 10 images or more. It will also depend on the image quality.
+
+
+
+
+
+Some of the required output images:
+
+
+
+
+
+
+
+
+
+This image clearly separates the sky from the ground as required.
+
+
+
+
+
+
+
+Another output image separating sky from ground.
+
+
+
+An image detecting the horizon.
+
+
+
