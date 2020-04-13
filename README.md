@@ -19,5 +19,13 @@ This script takes in an input image and returns a resized output image which sep
  Intuitively, given the pixel groupings, we need to quantify the assumption that a sky pixel will look similar to other sky pixels and
    likewise for the ground ones. Thus we are definitely looking for a degree of variance in each distribution. 
  
-# Links to further notes:
+# Links to further notes:             
+#                        https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5948826/
+#                        http://www.cs.cmu.edu/afs/cs/project/viper/www/Papers/WACV96/node5.html
+#                        https://mc.ai/practical-opencv-3-image-processing-with-python/
+#                        https://github.com/nsbradford/HorizonCV
+#                        https://github.com/jaym096/Horizon-Detection
+#                        http://au.tono.my/log/20130722-horizon-detection.html
+#                        https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_houghlines/py_houghlines.html
+#                        https://github.com/k29/horizon_detection
    
