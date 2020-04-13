@@ -28,4 +28,51 @@ This script takes in an input image and returns a resized output image which sep
 #                        http://au.tono.my/log/20130722-horizon-detection.html
 #                        https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_houghlines/py_houghlines.html
 #                        https://github.com/k29/horizon_detection
+
+
+# THINGS TO NOTE:
+This script runs perfectly according to the differnt availabe operating systems;
+In Linux, it has several issues including file handling of image directories, but when right steps are initiated it runs properly as required.
+When using linux OS, use the terminal or Anaconda3 on jupyter notebook, VisualStudio code(VScodium), or Pycharm latest version.
+
+(NOTE: WHEN USING TERMINAL/CMD/SHELL, MAKE SURE YOU'RE ON THE CURRENT WORKING DIRECTORY(CWD/PWD)/PATH,
+ IN ORDER TO EXECUTE THIS PYTHON FILE).
+Example: path = r'/home/net/MORYSO/sky-ground_detection/'
+ 
+# >>>>>>On terminal, run the script as; 
+     python3 detector.py /path 
+     this is designed in order to avoid the first argument in "sys.argv[1]/[0]"
+     
+Then make sure you state the correct path to your initial_images folder for it to give the required output
+
+#        FILE HANDLING BOTH IN WINDOWS AND UNIX/LINUX OPERATING SYSTEMS:
+  1. Windows uses different data drives like C: D: E to stored files and folders. While;
+     Unix/Linux uses a tree like a hierarchical file system.
+  
+  2. In windows, My Documents is default home directory. While;
+  	 For every user /home/username directory is created which is called his home directory.
+  	 
+ 3. In windows, there is back slash is used for Separating the directories.
+     i.e; "C:\home\net\MORYSO\sky-ground_detection\initial_images\*.*
+     The C:\ part of the path is the root folder, which contains all other folders. 
+     On Windows, the root folder is named C:\ and is also called the C: drive.
+     
+     while;
+    In Lunux, there is forward slash is used for Separating the directories.
+     i.e; r'/home/net/MORYSO/sky-ground_detection/initial_images/*.*'
+     
+ 4. Links to file handling : 
+#                           https://automatetheboringstuff.com/chapter8/
+#                           https://stackoverflow.com/questions/2953834/windows-path-in-python
+#                           https://medium.com/@ageitgey/python-3-quick-tip-the-easy-way-to-deal-with-file-paths-on-windows-mac-and-linux-11a072b58d5f
+         
+Lastly, the output of the detected/resized images will depend on; image quality and type, the runtime of your machine including the processors speed.
+It is better to input few images for faster output.
+Here I've set the output images to be in ".jpg" -format, you can customize the output format according to your wish as to be either; .png, .jpeg or any other format.
+
+Then whenever one wants to run this code, first, should ensure that he puts/place the required image(s) inside the initial_images folder,
+ and again ensure that the output_images directory/folder is empty... 
+ then run the python script successfully, either on the terminal as elaborated above while running it on terminal...
+After that, one should wait depending on your PC's processor speed, then later the output image will be shown under the output_images folder.
    
+This script takes a lot of time when running multiple images say, 10 images or more. It will also depend on the image quality.s
