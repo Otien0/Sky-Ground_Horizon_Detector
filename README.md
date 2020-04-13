@@ -93,7 +93,26 @@ Some of the required output images:
 
 
 
+
+
 Another output image separating sky from ground.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
