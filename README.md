@@ -23,7 +23,9 @@ This script takes in an input image and returns a resized output image which sep
 #                        https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5948826/
 #                        http://www.cs.cmu.edu/afs/cs/project/viper/www/Papers/WACV96/node5.html
 #                        https://mc.ai/practical-opencv-3-image-processing-with-python/
-#                        https://github.com/nsbradford/HorizonCV
+#                        https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_imgproc/py_houghlines/py_houghlines.html#hough-tranform-in-
+#                        https://stackoverflow.com/questions/44449871/fine-tuning-hough-line-function-parameters-opencv
+#                        https://www.pyimagesearch.com/2015/04/06/zero-parameter-automatic-canny-edge-detection-with-python-and-opencv/
 #                        https://github.com/jaym096/Horizon-Detection
 #                        http://au.tono.my/log/20130722-horizon-detection.html
 #                        https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_houghlines/py_houghlines.html
