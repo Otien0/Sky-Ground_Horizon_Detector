@@ -4,7 +4,15 @@ A Python implementation of Sky Region Detection in multiple images, using an app
 This script takes in an input image and returns a resized output image which separates the exclusively sky part from the rest or ground region.
 
 #    Explanation;
-    
+ First, after loading the images, we will need to downsample and resize the input_images using a "factor" to reduce the images resolution.
+# Links to resizing images:
+#                          https://www.tutorialkart.com/opencv/python/opencv-python-resize-image/
+#                          https://medium.com/@manivannan_data/resize-image-using-opencv-python-d2cdbbc480f0
+#                          https://www.pyimagesearch.com/2014/01/20/basic-image-manipulations-in-python-and-opencv-resizing-scaling-rotating-and-cropping/
+#                          https://stackoverflow.com/questions/18666014/downsample-array-in-python
+#                          https://pythonexamples.org/python-opencv-cv2-resize-image/
+                     
+
  Horizon detection or sky segmentation involves the approach of finding a boundary between sky and non sky regions, particularly the ground region in a given image.
  This can have many applications especially in navigation of UAV. 
  
