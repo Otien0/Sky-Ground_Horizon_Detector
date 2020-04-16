@@ -1,5 +1,5 @@
 ﻿# Sky-Ground_Horizon_Detector
-A Python implementation of Sky Region Detection in multiple images, using an application of a computer vision-based horizon detector(OpenCV).
+A Python Script that implements the technique of Sky Region Detection in multiple input_images, using an application of a computer vision-based horizon detector(OpenCV).
 
 This script takes in an input image and returns a resized output image which separates the exclusively sky part from the rest or ground region.
 
